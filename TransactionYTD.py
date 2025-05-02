@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import statsmodels.api as sm
 
-df = pd.read_csv('edb09f6e-0273-11f0-8785-0a8dd44a981d-1.csv')
+df = pd.read_csv('your-fee-history-here.csv')
 df['Symbol'] = df['Symbol'].fillna('USDT')
 print(df.isnull().sum())
 
